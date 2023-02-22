@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Caramel', sans-serif;
+  font-family: 'Caramel', cursive;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
   padding: .938em 1.563em;
   width: 3.75em;
   height: 3.75em;
-  font-family: 'Caramel', sans-serif;
+  font-family: 'Caramel', cursive;
   font-size: 1.1em;
   letter-spacing: .063em;
   text-transform: uppercase;
@@ -113,7 +113,7 @@ body {
   padding: .938em 1.563em;
   width: 3.75em;
   height: 3.75em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Caramel', cursive;
   font-size: 1.1em;
   letter-spacing: .063em;
   text-transform: uppercase;
