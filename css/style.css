@@ -94,7 +94,9 @@ body {
   transform: translateX(0.625em);
 }
 
-.button1:hover span::before {
+.button1:hover span::before,
+.button1:focus span::before,
+.button1:active span::before {
   content: 'validate';
   position: absolute;
   left: 30%;
@@ -103,7 +105,9 @@ body {
   letter-spacing: .188em;
 }
 
-.button1:hover span::after {
+.button1:hover span::after,
+.button1:focus span::after,
+.button1:active span::after {
   content: '';
   position: absolute;
   visibility: hidden;
@@ -170,7 +174,9 @@ body {
   transform: translateX(0.625em);
 }
 
-.button2:hover span::before {
+.button2:hover span::before,
+.button2:focus span::before,
+.button2:active span::before {
   content: 'validate';
   position: absolute;
   left: 30%;
@@ -179,7 +185,9 @@ body {
   letter-spacing: .188em;
 }
 
-.button2:hover span::after {
+.button2:hover span::after,
+.button2:focus span::after,
+.button2:active span::after {
   content: '';
   position: absolute;
   visibility: hidden;
