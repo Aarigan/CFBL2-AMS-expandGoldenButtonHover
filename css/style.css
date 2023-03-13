@@ -32,6 +32,7 @@ body {
   gap: 1.563em;
   border: none;
   outline: none;
+  /*   outline-color: transparent; */
 }
 
 /* Button 1 */
@@ -58,7 +59,9 @@ body {
   cursor: pointer;
 }
 
-.button1:hover {
+.button1:hover,
+.button1:focus,
+.button1:active {
   width: 12.5em;
   transition-delay: .5s;
 }
@@ -130,7 +133,9 @@ body {
   cursor: pointer;
 }
 
-.button2:hover {
+.button2:hover,
+.button2:focus,
+.button2:active {
   width: 12.5em;
   transition-delay: .5s;
 }
